@@ -1,9 +1,10 @@
 .logo {
 	object-fit: cover;
 	border-radius: 30%;
+	align-items: left;
 }
-.nav{
-	background-color: darkblue;
+.my-navbar{
+	background-color: #1A5F7A;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -14,34 +15,160 @@
 	display: flex;
 	justify-content: space-between;
 	width: 400px;
-	
 }
+
 
 .link{
 	color: white;
 }
 
+.square h1{
+	text-shadow: 10px 10px 10px grey;
+}
+
 .square{
-	background: beige;
-	border: solid 5px lightblue; 
+	background-image:url("https://www.voyage-insolite.com/wp-content/blogs.dir/6/files/2019/07/hotel-ile-paradisiaque-1170x782.jpg"); 
+	background-size: cover;
+	background-position: center;
+	padding: 50px;
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.carre{
+	background: #A5D7E8;
+	border: solid 5px #1A5F7A; 
 	border-radius: 100px;
 	padding: 50px;
 	margin: 50px;
 	box-shadow: 10px 10px 10px grey;
 }
 
-h1{
-	color: darkblue;
-	font-family: 'Poppins', sans-serif;
+.square6{
+	background: #A5D7E8;
+	border: solid 5px #1A5F7A; 
+	border-radius: 100px;
+	padding: 50px;
+	margin: 50px;
+	box-shadow: 10px 10px 10px grey;
+	font-size: 30px
 }
 
-h2 {color: ;}
+.square5{
+background: #A5D7E8;
+border: solid 5px #1A5F7A;
+border-radius: 100px;
+padding: 50px;
+margin: 50px;
+box-shadow: 10px 10px 10px grey;
+font-size: 20px
+
+}
+
+.square4{
+	background: #A5D7E8;
+	border: solid 5px #1A5F7A; 
+	border-radius: 100px;
+	padding: 50px;
+	margin: 50px;
+	box-shadow: 10px 10px 10px grey;
+	font-size: 30px
+}
+
+.square2{
+	background: #A5D7E8;
+	border: solid 5px #1A5F7A; 
+	border-radius: 100px;
+	padding: 50px;
+	margin: 50px;
+	box-shadow: 10px 10px 10px grey;
+	
+}
+
+.square3{
+	background: #A5D7E8;
+	border: solid 5px #1A5F7A; 
+	border-radius: 100px;
+	padding: 50px;
+	margin: 50px;
+	box-shadow: 10px 10px 10px grey;
+
+}
+
+.Box1{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 100%;
+}
+
+.Box2{
+	display: flex;
+	justify-content: flex-end;
+	width: 100%;
+}
+.jungle{
+	object-fit: cover;
+	width: 400px;
+	height: 400px;
+}
+
+.fond{
+	background-image:url("https://i.pinimg.com/736x/62/17/40/6217406299952878ac5b05e731348fa0.jpg"); 
+}
+
+.avatar2{
+	object-fit: cover;
+	border-radius: 50%;
+	width: 250px;
+	height: 250px;
+	margin: 35px;
+	box-shadow: 10px 10px 10px grey;
+}
+
+
+
+h1{
+	color: white;
+	font-family: 'Poppins', sans-serif;
+	font-size: 50px;
+	align-items: center;
+}
+
+h2{
+	text-align: center;
+	font-family: arial;
+	color: #F5EBE0;
+	font-size: 30px;
+}
+
+h3{
+	font-size: 30px;
+	color: #D23369;
+	font-family: Lilita;
+}
+
+h5{
+	font-size: 20px;
+}
 
 body{
 	text-align: center;
 	font-family: arial;
+	color: white;
 	}
+
+body{
+	background-color: #002B5B;
+}
 
 p{
 	font-size: 16px;
+}
+
+ul{
+	text-align: left;
 }
