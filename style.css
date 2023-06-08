@@ -107,8 +107,11 @@ font-size: 20px
 
 .Box2{
 	display: flex;
-	justify-content: flex-end;
+	justify-content: center;
 	width: 100%;
+	width: 400px;
+	height: 400px;
+	align-items: center;
 }
 .jungle{
 	object-fit: cover;
@@ -148,7 +151,7 @@ h2{
 h3{
 	font-size: 30px;
 	color: #D23369;
-	font-family: Lilita;
+	font-family: 'Lilita One', cursive;
 }
 
 h5{
@@ -167,6 +170,18 @@ body{
 
 p{
 	font-size: 16px;
+}
+
+.modal-body{
+	color:black;
+}
+
+.btnbtn-primary{
+	color:black;
+}
+
+.modal-title{
+	color: black;
 }
 
 ul{
